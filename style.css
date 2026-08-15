@@ -137,12 +137,16 @@ body{
     color: #7650dc;
 } 
 
+.card--6 .card__h1{
+    margin: 0;
+}
+
 @media(min-width:720px){
     .grid-container{
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: 1fr 50px 150px 1fr;
-        gap: 4.5rem 4rem;
-        padding: 4rem;
+        gap: 4rem 3rem;
+        padding: 18rem;
     }
 
     .card{
@@ -177,6 +181,7 @@ body{
 
     .card--6{
         grid-area: 4/2/5/3;
+        justify-content: space-around;
     }
 
     .card--7{
@@ -197,7 +202,7 @@ body{
     }
 
     .card--4 img{
-        height: 55%;
+        height: 60%;
         width: auto;
     }
 
@@ -212,8 +217,12 @@ body{
         width: 100%;
     }
 
-    .card--6 p{
+    .card--6 .card__p{
         font-size: 1.8rem;
+    }
+
+    .card--6 span{
+        border: 1px solid black;
     }
 
 }
