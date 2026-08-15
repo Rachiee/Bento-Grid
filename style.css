@@ -144,8 +144,8 @@ body{
 @media(min-width:720px){
     .grid-container{
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: 1fr 80px 150px 1fr;
-        gap: 4rem 4rem;
+        grid-template-rows: 1fr 70px 150px 1fr;
+        gap: 4rem 3.9rem;
         padding: 4rem 14rem;
     }
 
