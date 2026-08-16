@@ -144,9 +144,9 @@ body{
 @media(min-width:720px){
     .grid-container{
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: 1fr 70px 150px 1fr;
-        gap: 4rem 3.9rem;
-        padding: 4rem 14rem;
+        grid-template-rows: 1fr 7rem 17rem 1fr;
+        gap: 3rem 3rem;
+        padding: 4rem 8rem;
     }
 
     .card{
@@ -177,6 +177,10 @@ body{
     .card--5{
         grid-area: 4/3/5/5;
         flex-direction: row;
+    }
+
+    .card--5__h2{
+        text-align: start;
     }
 
     .card--6{
